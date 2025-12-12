@@ -1,0 +1,24 @@
+public class Datatype2 {
+
+	public static void main(String[] args) {
+		byte rollno=23;
+		short idno=66;
+		int regno=4567;
+		long mobileno=9370222283l;
+		float weight=52.00f;
+		double distance=2345678.6784656;
+		char symbol= '#';
+		boolean amigood=true;
+	
+		
+		System.out.println(rollno);
+		System.out.println(idno);		
+		System.out.println(regno);		
+		System.out.println(mobileno);
+		System.out.println(weight);
+		System.out.println(distance);
+		System.out.println(symbol);
+		System.out.println(amigood);
+	}
+
+}

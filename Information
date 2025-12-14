@@ -1,7 +1,8 @@
-// second question
+//create an class with name Myinfo inside this declare all the data types print accordingly
 public class Myinfo {
 
 	public static void main(String[] args) {
+		String name = "Payal Bhanudas chavan";
 		byte age = 22;
 		short weight = 52;
 		int studentID = 2345;
@@ -10,19 +11,21 @@ public class Myinfo {
 		double present = 103.000;
 		char grade = 'A';
 		boolean checkpassed = true;
-		String name = "Payal Bhanudas chavan";
-
+		
+		
 		System.out.println(" My Inforamation");
+		System.out.println("Name of student=" + name);
 		System.out.println("Age=" + age);
-		System.out.println("Weight=" + weight);
+		System.out.println("Weight=" + weight+ "Kg");
 		System.out.println("student ID=" + studentID);
 		System.out.println("Mobile NO=" + mobileNO);
-		System.out.println("Percantage in 12=" + marks);
-		System.out.println("Day of present in a year=" + present);
+		System.out.println("Percantage in 12=" + marks+"%");
+		System.out.println("Day of present in a year=" + present+"Days");
 		System.out.println("Grade=" + grade);
 		System.out.println("Result pass=" + checkpassed);
-		System.out.println("Name of student=" + name);
-
+	
+		
+		
 	}
 
 }

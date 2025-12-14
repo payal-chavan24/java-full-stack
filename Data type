@@ -1,24 +1,40 @@
+package calculator;
+
 public class Datatype2 {
 
 	public static void main(String[] args) {
-		byte rollno=23;
-		short idno=66;
-		int regno=4567;
-		long mobileno=9370222283l;
-		float weight=52.00f;
-		double distance=2345678.6784656;
-		char symbol= '#';
-		boolean amigood=true;
-	
+	    System.out.println("Size of data types in BYTE");
+		System.out.println("Byte size is"+Byte.BYTES+ "BYTE");
+		System.out.println("Short size is"+Short.BYTES+ "BYTE");
+		System.out.println("Integer size is"+Integer.BYTES+ "BYTE");
+		System.out.println("Long size is"+Long.BYTES+ "BYTE");
+		System.out.println("Float size is"+Float.BYTES+ "BYTE");
+		System.out.println("Double size is"+Double.BYTES+ "BYTE");
+		System.out.println("Character size is"+Character.BYTES+ "BYTE");
+		System.out.println("Boolean is not found");
 		
-		System.out.println(rollno);
-		System.out.println(idno);		
-		System.out.println(regno);		
-		System.out.println(mobileno);
-		System.out.println(weight);
-		System.out.println(distance);
-		System.out.println(symbol);
-		System.out.println(amigood);
+	    System.out.println("size of data type in BIT");
+		System.out.println(Byte.SIZE + "BIT");
+		System.out.println(Short.SIZE+ "BIT");
+		System.out.println(Integer.SIZE+ "BIT");
+		System.out.println(Long.SIZE+ "BIT");
+		System.out.println(Float.SIZE+ "BIT");
+		System.out.println(Double.SIZE+ "BIT");
+		System.out.println(Character.SIZE+ "BIT");
+		System.out.println("Boolean is not found"+ "BIT");
+		
+		System.out.println("MIN and MAX value of data types");
+		System.out.println(Byte.MIN_VALUE+"to"+Byte.MAX_VALUE);
+		System.out.println(Short.MIN_VALUE+"to"+Short.MAX_VALUE);
+		System.out.println(Integer.MIN_VALUE+"to"+Integer.MAX_VALUE);
+		System.out.println(Long.MIN_VALUE+"to"+Long.MAX_VALUE);
+		System.out.println(Float.MIN_VALUE+"to"+Float.MAX_VALUE);
+		System.out.println(Double.MIN_VALUE+"to"+Double.MAX_VALUE);
+		System.out.println((int)Character.MIN_VALUE+"to"+(int)Character.MAX_VALUE);
+		System.out.println("Boolean is not found");
+		
+		
 	}
 
 }
+

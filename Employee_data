@@ -1,0 +1,25 @@
+// create class Employee print all the employee realated data
+public class Employee {
+
+	public static void main(String[] args) {
+
+		short employeeID = 23;
+		byte dayoff = 05;
+		int age = 30;
+		char gender = 'M';
+		boolean ispernment = true;
+		long salary = 250000l;
+		String empname = "rahul";
+		System.out.println("Employee Detail");
+		System.out.println("Employee name=" + empname);
+		System.out.println("employeeID=" + employeeID);
+		System.out.println("dayoff=" + dayoff);
+		System.out.println("age=" + age);
+		System.out.println("gender=" + gender);
+		System.out.println("pernment employee=" + ispernment);
+		System.out.println("package per months=" + salary);
+
+		
+	}
+
+}

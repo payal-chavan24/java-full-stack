@@ -2,7 +2,7 @@
 public class Studentinfo {
 
 	public static void main(String[] args) {
-		String studentname="payal bhanudas chavan";
+		String studentname="Payal bhanudas chavan";
 		byte rollno=66;
 		short idno=34;
 		long mobileNO=932345678L;

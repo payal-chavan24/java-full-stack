@@ -1,0 +1,22 @@
+//Declaration and initialization of local variables for Vehicle details
+public class Vehicle {
+
+	public static void main(String[] args) {
+// Local variables		
+		String vehicleType = "car";
+		String brandName = "BMW";
+		int manufacturingYear = 2007;
+		int numberPlate = 2345;
+		double price = 650000.00;
+		boolean newBrand = true;
+
+		System.out.println("Vehicle Details");
+		System.out.println("Vehicle Type=" + vehicleType);
+		System.out.println("Brand Name=" + brandName);
+		System.out.println("Manufacturing Year=" + manufacturingYear);
+		System.out.println("Number Plate=" + numberPlate);
+		System.out.println("Price=" + price + " Rupees");
+		System.out.println("New brand=" + newBrand);
+	}
+
+}

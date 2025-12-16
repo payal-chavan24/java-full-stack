@@ -1,0 +1,24 @@
+//Declaration and initialization of local variables for Hospital details
+public class Hospital {
+
+	public static void main(String[] args) {
+		// Local variables		
+		String patientName="Rahul Sharma";
+		int patientAge=22;
+		char gender='m';
+		float patientWeight=66.5f;
+		String hospitalName="City Hospital";
+		boolean isadmitted=true;
+		
+				System.out.println("Hospital Details ");
+//patient details 	 			
+				System.out.println("Patient Name="+patientName);
+				System.out.println("Patient Age=" + patientAge + "years old");
+				System.out.println("Patient Gender="+gender);
+				System.out.println("Patient Weight="+patientWeight+"kg");
+				System.out.println("Hospital Name="+hospitalName);
+				System.out.println("Is Patient admitted="+isadmitted);
+				
+	}
+
+}

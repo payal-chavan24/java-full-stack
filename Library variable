@@ -1,0 +1,25 @@
+//Declaration and initialization of local variables for book details
+public class Library2 {
+
+	public static void main(String[] args) {
+		// Local variables
+		String bookName = "Atomic Habits";
+		int publishYear = 2018;
+		String author = "james clear";
+		boolean isAvailable = true;
+		float discount = 25.54f;
+		byte howmanybookSold = 23;
+		int price = 139;
+
+		System.out.println("Book Details");
+		System.out.println("Book name=" + bookName);
+		System.out.println("Publish year=" + publishYear);
+		System.out.println("Author Name=" + author);
+		System.out.println("Is book Available=" + isAvailable);
+		System.out.println("Discount=" + discount);
+		System.out.println("How many book sold=" + howmanybookSold);
+		System.out.println("Price=" + price + "Rupees");
+
+	}
+
+}

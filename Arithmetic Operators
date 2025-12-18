@@ -1,0 +1,16 @@
+
+public class Mycalculation {
+
+	public static void main(String[] args) {
+		float a=7.0f;
+		int b=49;
+		System.out.println("Arithmetic operator");
+		System.out.println("Addition "+"a "+ " and b "+" is "+(a+b));
+		System.out.println("Substraction "+"a "+ " and b "+" is "+(a-b));
+		System.out.println("Multiply "+"a "+ " and b "+" is "+(a*b));
+		System.out.println("Division "+"a "+ " and b "+" is "+(a/b));
+		System.out.println("Modulus "+"a "+ " and b "+" is "+(a%b));
+		
+	}
+
+}

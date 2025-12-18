@@ -1,0 +1,16 @@
+
+public class RelationOperator {
+
+	public static void main(String[] args) {
+		int a=15,b=5;
+		System.out.println("Relational Operators");
+		System.out.println( a +" is greater then " + b +" - "+(a>b));
+		System.out.println(a +" is less then " + b +" - "+(a<b));
+		System.out.println(a +" is greater then equals to " + b +" - "+(a>=b));
+		System.out.println(a +" is less then equal to " + b +" - "+(a<=b));
+		System.out.println(a +" is equals to " + b +" - "+(a==b));
+		System.out.println(a +" is not equal to " + b +" - "+(a!=b));
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class IncrementDecrement {
+
+	public static void main(String[] args) {
+		byte a = 7;
+		byte b = 12;
+		int c = 12;
+		System.out.println("Increment and Decrement Operator");
+		System.out.println("Post-increment a++ : " + a++);// 7 value will print first then, it will increase by +1
+		System.out.println("Value of a after a++ : " + a);// 8
+
+		System.out.println("Pre-increment ++a : " + ++a);// 9 value will increase by +1 first then, it will print it
+
+		System.out.println("Post-decrement b-- : " + b--);// 12 value will print first then, it will decrease by -1
+		System.out.println("Value of b after b-- : " + b);// 11
+		
+		System.out.println("Pre-decrement --c : " + --c);// 11 value will decrease by -1 then, it will print it
+	}
+
+}

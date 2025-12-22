@@ -1,0 +1,16 @@
+
+public class Mypractise3 {
+
+	public static void main(String[] args) {
+		int m = 10;
+
+		--m;// 9 //pre-decrement
+		System.out.println(m);// 9
+		m %= 3;// 0 // modulus & assign
+		System.out.println(m << 1);// 0 //left shift
+		m++;// 0//1 //post-increment
+		System.out.println(m);// 1
+
+	}
+
+}

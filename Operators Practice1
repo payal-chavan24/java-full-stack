@@ -1,0 +1,17 @@
+
+public class Mypractice {
+
+	public static void main(String[] args) {
+		int a = 5;
+
+		a++;//5//6         //  post increment
+		a += 2;//8         //add & assign
+		--a;//7            //pre decrement
+		System.out.println(a++);//7//8      //post increment
+		a %= 3;//2                           //modulus & assign
+		System.out.println(a);//2
+	
+		
+	}
+
+}

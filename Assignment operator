@@ -1,0 +1,18 @@
+//Assignment Operator
+public class AssignmentOperator {
+
+	public static void main(String[] args) {
+		int a = 7;
+		a += 4;   //a=7+4=11    //update the value of variable 
+		System.out.println(a);
+		a -= 4;   //11-4=7
+		System.out.println(a);
+		a *= 4;  //7*4=28
+		System.out.println(a);
+		a /= 4;    //28/4=7
+		System.out.println(a);
+		a %= 4;   //7%4=3
+		System.out.println(a);
+	}
+
+}

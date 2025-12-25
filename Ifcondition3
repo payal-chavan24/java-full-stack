@@ -1,0 +1,12 @@
+//Write a program to check whether a temperature is above 30°C, then print "Hot Day".
+
+public class If3 {
+
+	public static void main(String[] args) {
+		float temp = 35.5f;
+		if (temp > 30) {
+			System.out.println("Hot Day");
+		}
+	}
+
+}

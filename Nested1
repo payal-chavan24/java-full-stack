@@ -1,0 +1,16 @@
+//Write a program to check if a person is eligible to vote, and if eligible, check if they can contest in elections (age >= 25).
+public class Nested1 {
+	public static void main(String[] args) {
+		int ageVoting = 18;
+		int ageContest = 22;
+		if (ageVoting >= 18) {
+			if (ageContest >= 25) {
+				System.out.println("you are eligiable");
+			} else {
+				System.out.println("you can not be contest in elections");
+			}
+		} else {
+			System.out.println("you are underage");
+		}
+	}
+}

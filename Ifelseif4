@@ -1,0 +1,20 @@
+//Write a program to print a message based on age group:
+public class Ifelseif4 {
+
+	public static void main(String[] args) {
+		int age = 104;
+		if (age <= 12) {
+			System.out.println("Child");
+		} else if (age <= 19) {
+			System.out.println("Teenager");
+		} else if (age <= 59) {
+			System.out.println("Adult");
+		} else if (age >= 60 && age < 105) {
+			System.out.println("Senior Citizen");
+		} else {
+			System.out.println("Super senior citizen  ");
+		}
+
+	}
+
+}

@@ -1,0 +1,17 @@
+//Write a program to check whether a number is even, and if even, check whether it's greater than 50.
+public class Nested2 {
+
+	public static void main(String[] args) {
+		int a=77;
+		if(a%2==0){
+		if(a>50){
+		System.out.println("Both conditions are true");	
+		}else {
+			System.out.println("Number is  even but not greater than 50 ");
+		}	
+		}else {
+			System.out.println("Number is not even");
+		}
+	}
+
+}

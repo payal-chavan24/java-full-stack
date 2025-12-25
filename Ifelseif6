@@ -1,0 +1,16 @@
+//Write a program to check whether a number is positive, negative, or zero.
+public class Ifelseif6 {
+
+	public static void main(String[] args) {
+		int number=-12;
+		if(number>0){
+			System.out.println("Positive number");
+		}else if(number==0){
+			System.out.println("Zero number");	
+		}else {
+			System.out.println("Negative number");
+		}
+
+	}
+
+}

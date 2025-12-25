@@ -1,0 +1,15 @@
+//Write a program to classify a temperature as Hot, Warm, Cool, or Cold.
+public class Ifelseif5 {
+
+	public static void main(String[] args) {
+		int temp = 28;
+		if (temp >= 30) {
+			System.out.println("Hot temperature");
+		} else if (temp <= 20) {
+			System.out.println("cold temperature");
+		} else {
+			System.out.println("warm temperature");
+		}
+	}
+
+}

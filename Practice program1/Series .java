@@ -92,6 +92,11 @@ public class Series {
 			}
 
 		}
+		System.out.println();
+		// write a java program to print the digit from 0 to 9
+		for(int i=0;i<10;i++) {
+			System.out.print(i+" ");
+		}
 	}
 
 }

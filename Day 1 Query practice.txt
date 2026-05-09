@@ -1,0 +1,44 @@
+Employee
+emp_id	name	salary	dept_id
+1	A	50000	101
+2	B	60000	102
+3	C	40000	101
+4	D	70000	103
+5	E	55000	102
+Department
+dept_id	dept_name
+101	HR
+102	IT
+103	Sales
+
+1)Display all employee details.
+select* from Employee;
+
+2)Show names of Employees with salary greater than 50000.
+select name from Employee where salary>50000;
+
+3)Find employees who belong to department 101.
+select * from Employee where dept_id=101;
+
+4) Show employee names and their department names.
+select e.name ,d.dept_name from Employee e inner join Department d on e.dept_id=d.dept_id;
+
+5) Find employees working in "IT" department.
+select e.name ,d.dept_name from Employee e inner join Department d on e.dept_id=d.dept_id where dept_name ='IT';
+
+6)Display employee name and salary in descending order of salary
+select name ,salary from Employee order by salary desc;
+
+7)Show all employees with their department names (use JOIN).
+select e.name ,d.dept_name from Employee e left join Department d 
+on e.dept_id=d.dept_id;
+
+8)Display employees who work in "HR" department using JOIN.
+select e.name from Employee e inner join  Department d on e.dept_id =d.dept_id where dept_name ='HR';
+
+9)Find total salary of each department.
+select d.dept_name ,sum(salary) As total_salary
+from Employee e inner join  Department d on e.dept_id =d.dept_id group by d.dept_name ;
+10)Show departments where total salary is greater than 100000.
+select d.dept_name ,sum(e.salary) As total_salary from Employee e inner join on Department d group by d.dept_name having sum(e.salary)>100000;   
+
